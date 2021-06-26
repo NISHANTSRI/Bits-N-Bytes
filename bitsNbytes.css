@@ -1,6 +1,19 @@
 body {
-    font-family: 'helvetica', 'sans-serif';
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
     margin: 0;
+}
+
+.logo{
+  color: #FFB320;
+  width: 30px;
+  height: 20px;
+}
+
+.logo-picture{
+    height: 40px;
+    width: 90px;
 }
 
 /* start: global style rules */
@@ -8,6 +21,9 @@ h1, h2, h3, h4, h5 {
     line-height: 1.5;
     font-weight: 300;
     margin: 0.5em 0;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 h1 {
@@ -20,6 +36,7 @@ h2 {
 
 h3 {
     font-size: 1.6em;
+    padding:0rem;
 }
 
 h4 {
@@ -44,7 +61,7 @@ p, label, strong {
     display: flex;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0px;
     justify-content: space-between;
 }
 
@@ -152,7 +169,7 @@ nav ul li a:hover {
 
 /* start: hero styles */
 #hero-image {
-    background: url('https://onclickwebdesign.com/wp-content/uploads/purple_monkey_bg.jpg') top center no-repeat;
+    background: url('C:\\Users\\nisha\\OneDrive\\Desktop\\webocode\\images\\1072679.jpg') top center no-repeat;
     height: 820px;
 }
 
